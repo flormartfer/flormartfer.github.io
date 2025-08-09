@@ -1,0 +1,14 @@
+body {
+    background-color: green;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
