@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login con Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: pink; /* Fondo rosa */
+      
+    }
+
+    .login-card {
+      background-color: rgba(255, 182, 193, 0.9); /* Rosa clarito */
+      border-radius: 15px;
+    }
+
+    /* Botón rosa intenso */
+    .btn-rosa {
+      background-color: #e75480; /* Rosa intenso */
+      color: white;
+      border: none;
+    }
+
+    .btn-rosa:hover {
+      background-color: hsl(339, 67%, 52%); /* Más oscuro al pasar el mouse */
+      color: white;
+    }
+ 
+  </style>
+</head>
+  
+<body class="d-flex justify-content-center align-items-center vh-100">
+  <img src="imagen/login_JaP.png" alt="Logo" class="position-absolute top-0 start-0 m-3" width="450">
+  <img src="imagen/login-e-mercado.png" alt="Logo" class="position-absolute top-0 end-0 m-3" width="350">
+  <div class="card shadow p-4 login-card" style="width: 22rem;">
+      <h3 class="text-center mb-4">Iniciar Sesión</h3>
+    <form>
+      <div class="mb-3">
+        <label for="usuario" class="form-label">Usuario</label>
+        <input type="text" class="form-control" id="usuario" placeholder="Ingresa tu usuario" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="contraseña" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="contraseña" placeholder="Ingresa tu contraseña" required>
+      </div>
+
+      <button type="submit" class="btn btn-rosa w-100">Insertar</button>
+    </form>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
